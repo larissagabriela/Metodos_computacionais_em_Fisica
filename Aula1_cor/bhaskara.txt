@@ -1,0 +1,19 @@
+Programa Bhaskara
+	a, b, c, x: Real
+Início
+	Peça o valor de a
+	Leia a
+	Enquanto a for igual a zero:
+		Escreva "O valor de a não pode ser zero"
+		Peça o valor de a
+	Peça do valor de b e c
+	Calcule delta = (-b)**2 - 4*a*c
+	
+	Se delta < 0 então
+		Escreva "Nao existe raiz real"
+	Se delta = 0 entao
+		Escreva "O valor de x é, (-b)/2*a"
+	Senão
+		Escreva "x pode assumir dois valores reais:(-b + math.sqrt(delta))*(2*a) e (-b - math.sqrt(delta))*(2*a)" 
+	Fim do se
+Fim
